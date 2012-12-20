@@ -16,6 +16,10 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <project path="external/bluetooth/bluez" name="android-bluez/external_bluetooth_bluez" remote="gitorious" />
+  <project path="external/bluetooth/glib" name="android-bluez/external_bluetooth_glib" remote="gitorious" />
+  <project path="external/bluetooth/hcidump" name="android-bluez/external_bluetooth_hcidump" remote="gitorious" />
+
 <!--
   <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -268,7 +272,8 @@
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
+<!--  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" /> -->
+  <project path="packages/apps/Bluetooth" name="android-bluez/packages_apps_Bluetooth" remote="gitorious" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
@@ -290,7 +295,8 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+<!--  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" /> -->
+  <project path="packages/apps/Phone" name="android-bluez/packages_apps_Phone" remote="gitorious" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
