@@ -8,7 +8,7 @@
   <remote  name="gitorious"
            fetch="https://git.gitorious.org" />
 
-  <default revision="master"
+  <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
 
