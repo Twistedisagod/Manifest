@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
 
   <remote  name="gitorious"
-           fetch="https://git.gitorious.org" />
+           fetch="git://gitorious.org" />
 
   <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
