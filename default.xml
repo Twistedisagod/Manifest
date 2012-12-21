@@ -16,7 +16,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="external/bluetooth/bluez" name="android-bluez/external_bluetooth_bluez" remote="gitorious" />
+  <project path="external/bluetooth/bluez" name="android-bluez/external_bluetooth_bluez" remote="gitorious" revison="master" />
   <project path="external/bluetooth/glib" name="android-bluez/external_bluetooth_glib" remote="gitorious" />
   <project path="external/bluetooth/hcidump" name="android-bluez/external_bluetooth_hcidump" remote="gitorious" />
 
